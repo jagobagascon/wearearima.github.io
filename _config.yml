@@ -26,6 +26,7 @@ markdown: kramdown
 theme: minima
 gems:
   - jekyll-feed 
+  - jekyll-sitemap
 exclude:
   - Gemfile
   - Gemfile.lock
@@ -37,8 +38,22 @@ authors:
     display_name: Iñigo Telleria
     bio: 
   aritz:
-      display_name: Aritz Berasarte
-      bio: 
+    display_name: Aritz Berasarte
+    bio: 
   ugaitz:
     display_name: Ugaitz Urien
     bio: 
+  arkaitz:
+    display_name: Arkaitz Osa
+    bio: 
+  alberto:
+    display_name: Alberto Calvo
+    bio:
+  fernando:
+    display_name: Fernando Lozano
+    bio:      
+# Google Analytics
+google_analytics: UA-120217722-1
+plugins:
+  - jekyll-sitemap
+  

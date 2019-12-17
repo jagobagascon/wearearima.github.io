@@ -8,7 +8,6 @@ $post-header-height: 300px;
   position: relative;
   margin-top: 40px;
   padding-bottom: 4em;
-
   .post-header {
     height: $post-header-height;
     margin-bottom: $spacing-unit;
@@ -38,6 +37,7 @@ $post-header-height: 300px;
     @include media-query($on-palm) {
       background-position: initial;  
     }
+
   }
 }
 
@@ -124,5 +124,25 @@ $post-header-height: 300px;
     @include media-query($on-laptop) {
       font-size: 14px;
     }
+  }
+  li {
+    list-style: none;
+    margin-bottom: .75em;
+    &::before {
+      content: '/';
+      margin-left: -25px;
+      padding-right: 14px;
+    }
+  }
+  a {
+    font-family: 'gothambook';
+    color: #000;
+    &:hover {
+      color: #333;
+    }
+  }
+  a {
+    font-family: gotham_light, Arial, Helvetica, sans-serif;
+    text-decoration: underline;
   }
 }
